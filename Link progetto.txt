@@ -1,0 +1,15 @@
+Ho raccolto, giorno per giorno, dati relativi alle sessioni di gioco che ho fatto sulla console Nintendo Switch.
+I giorni in cui non ho giocato sono contrassegnati da NA.
+In particolare, ho registrato i seguenti dati:
+	Tempo di gioco di ogni sessione (in minuti)
+	Genere del videogioco
+	Giorno in cui ho giocato (in formato GG/MM/YYYY)
+	Ora di inizio
+	Ora di fine
+	
+Link al foglio Google:
+	https://docs.google.com/spreadsheets/d/1xB83rAx-i23W9Ug2ZdZhhHMFcx8iJzZcuCd4bAn-LIY/edit#gid=1158693782
+
+Link alla dashboard:
+	https://lookerstudio.google.com/reporting/239fc8bf-321b-42f0-976d-93a253bf9cd7
+
