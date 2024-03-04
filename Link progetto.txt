@@ -1,15 +1,80 @@
-Ho raccolto, giorno per giorno, dati relativi alle sessioni di gioco che ho fatto sulla console Nintendo Switch.
-I giorni in cui non ho giocato sono contrassegnati da NA.
+Ho raccolto, giorno per giorno (da inizio Dicembre a fine Febbraio), dati relativi alle sessioni di gioco che ho fatto sulla console Nintendo Switch.
 In particolare, ho registrato i seguenti dati:
 	Tempo di gioco di ogni sessione (in minuti)
 	Genere del videogioco
 	Giorno in cui ho giocato (in formato GG/MM/YYYY)
 	Ora di inizio
 	Ora di fine
+I giorni in cui non ho giocato sono contrassegnati da NA e hanno 0 minuti di gioco.
 	
 Link al foglio Google:
-	https://docs.google.com/spreadsheets/d/1xB83rAx-i23W9Ug2ZdZhhHMFcx8iJzZcuCd4bAn-LIY/edit#gid=1158693782
+	https://docs.google.com/spreadsheets/d/1xB83rAx-i23W9Ug2ZdZhhHMFcx8iJzZcuCd4bAn-LIY/edit?usp=sharing
 
 Link alla dashboard:
 	https://lookerstudio.google.com/reporting/239fc8bf-321b-42f0-976d-93a253bf9cd7
 
+
+Analisi dei grafici scelti:
+
+
+Schede di riepilogo:
+	Ho deciso di aggiungere 3 schede riepilogative (Generi giocati, Minuti totali di gioco e Minuti medi) per avere un'idea generale sui dati delle mie sessioni di gioco.
+	Per avere i numeri di generi corretti in "Generi giocati", ho applicato un filtro in modo da escludere il valore NA (cosa fatta anche nel grafico a barre).
+
+
+Filtri:
+	Ho inserito 3 filtri:
+		- Genere = Permette di filtrare i dati in base al genere di videogioco giocato.
+		- Minuti = Permette di filtrare i dati per i giochi giocati solo per TOT minuti.
+		- Data = Permette di filtrare i dati in una finestra temporale precisa.
+	Da notare che i primi 2 filtri cambiano solo alcuni grafici, cioè quelli che ho ritenuto più interessanti modificare rispetto al filtro (es: cambiare la scheda riepilogativa dei generi giocati quando si modifica il filtro di genere, non avrebbe senso, perchè vedrei sempre 1; modificare invece i minuti totali e medi di gioco ha senso, perchè così li posso vedere per ogni genere selezionato).
+
+
+Grafico temporale:
+	Avendo registrato i dati giorno per giorno, ho voluto vedere quanto ho giocato appunto ogni giorno.
+	Dal grafico risulta evidente che ci son stati giorni "di picco", in cui ho giocato moltissimo, a dispetto di altri giorni in cui ho giocato poco o per nulla.
+	Inoltre intorno a inizio gennaio e metà febbraio, le sessioni di gioco si sono completamente interrotte.
+	Questi dati si possono sono coerenti con le mie abitudini, infatti:
+		1)In settimana ho poco tempo per giocare, per cui mi ritrovo spesso a giocare nel weekend. Complice il mal tempo di questi messi infatti mi è capitato, durante il week end, di fare sessioni prolungate.
+		2)A inizio gennaio ho festeggiato con i parenti, per cui non ho quasi per nulla giocato. 
+		A metà Febbraio circa invece ho avuto degli episodi acuti legati a problemi di salute, a causa dei quali avevo messo in pausa ogni attività
+	Questi due eventi spiegano le pause prolungate.
+
+
+Heatmap dei minuti di gioco per fascia oraria:
+	Avendo registrato gli orari in cui ho iniziato e finito di giocare, ho voluto provare a vedere se c'erano fasce orarie in cui maggiormanete ho giocato, ordinando la mappa per i minuti giocati (ordine decrescente).
+	Così facendo ho notato che mi sono spesso ritrovata a giocare la mattina, ogni tanto nel primo pomeriggio.
+
+
+Grafico ad albero dei generi più giocati per giorno:
+	Volevo vedere a colpo d'occhio quali erano i generi che avevo giocato per più giorni.
+	Ho deciso di lasciare anche il valore NA perchè è un indicatore del fatto che non ho giocato: dal grafico si capisce quindi che per la maggior parte dei giorni, non ho appunto giocato.
+	Negli ultimi tempi in effetti ho avuto poche occasioni per giocare, soprattutto nella settimana (come si rispecchia anche dal grafico temporale, in cui sono mostrati picchi di gioco in corrispondenza, principalmente, dei week end).
+
+
+Grafico a barre con i generi più giocati per minuti:
+	Qui volevo capire quali erano i generi su cui, in questi mesi, ho passato più tempo.
+	Interessante a mio parere che il genere che in minuti ho giocato di più (GDR) non corrisponde al genere a cui ho giocato per più giorni (Platform, non considerando "NA" nel grafico ad albero).
+	In effetti, per la natura dei generi, una sessione di GDR mi durava molto prima di raggiungere check point, mentre per altri generi come i Platform, potevo giocare anche solo una decina di minuti e finire un livello.
+	Questo mi ha portata, quando avevo poco tempo, a fare una partita veloce a giochi veloci (tipo appunto Platform), il che spiega perchè sono i giochi che ho giocato per più giorni ma per pochi minuti).
+
+
+Grafico a torta per i generi più giocati in minuti:
+	Volevo vedere a colpo d'occhio i generi su cui ho passato più tempo.
+	Anche qui ho deciso di tenere "NA" perchè indica che non ho giocato: è interessante che qui ci sia una corrispondenza con il grafico ad albero, ovvero:
+		1)Nella maggior parte dei giorni non ho giocato
+		2)Per la maggior parte del tempo non ho giocato
+
+
+Tabella con i giorni di gioco per genere:
+	Volevo poter vedere di preciso quanti giorni avevo giocato (o non giocato) ongni genere.
+
+
+Pulsante per informazioni:
+	Ho inserito un'immagine di un Pokèmon (?) che porta a una seconda pagina del report, nel caso in cui chi legga non conosce i generi di videogiochi e volesse saperne di più.
+
+
+Pagina "Info sui generi":
+	Qui, per ogni genere da me giocato, ho inserito un'immagine cliccabile che porta alla corrispondente pagina di Wikipedia.
+	Ho inserito anche una freccia per tornare alla Dashboard.
+	
